@@ -1,11 +1,12 @@
 import { Layout } from '../../components/Layout';
 import { usePageTitle } from '../../hooks/usePageTitle.ts';
+import { SchuduleForm } from '../../components/SchuduleForm.tsx';
 
 export const Home = () => {
   usePageTitle('Home');
   return (
     <Layout>
-      <h1 className="font-xl font-bold">Home</h1>
+      <SchuduleForm />
     </Layout>
   );
 };
