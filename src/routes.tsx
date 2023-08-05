@@ -1,5 +1,5 @@
 import { About } from './pages/about/About';
-import { Signin } from './pages/auth/Signin/Signin';
+import { Signin } from './pages/login/Login';
 import { Home } from './pages/home/Home';
 import { Settings } from './pages/settings/Settings';
 

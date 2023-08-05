@@ -1,5 +1,5 @@
-import { Footer } from '../Footer/Footer';
-import { Navbar } from '../Navigation/Navbar';
+// import { Footer } from '../Footer/Footer';
+import { Navbar } from './Navbar';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -12,9 +12,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         <Navbar />
       </header>
       <main>{children}</main>
-      <footer>
-        <Footer />
-      </footer>
+      <footer>{/* <Footer /> */}</footer>
     </div>
   );
 };

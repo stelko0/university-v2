@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ABOUT_ROUTE, HOME_ROUTE, SETTINGS_ROUTE } from '../../routes';
+import { ABOUT_ROUTE, HOME_ROUTE, SETTINGS_ROUTE } from '../routes';
 
 export const Navbar = () => {
   return (
