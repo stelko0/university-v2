@@ -3,7 +3,7 @@ import { ABOUT_ROUTE, HOME_ROUTE, SETTINGS_ROUTE } from '../routes';
 
 export const Navbar = () => {
   return (
-    <nav className="bg-slate-500 text-white flex justify-between">
+    <nav className="bg-slate-500 text-white flex justify-between font-roboto">
       <h1 className="sm:text-2xl font-bold px-4 flex items-center">
         University
       </h1>

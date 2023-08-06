@@ -37,8 +37,8 @@ export const SchuduleForm = () => {
   const [selectedGroup, setSelectedGroup] = useState(2);
   const [selectedCourse, setSelectedCourse] = useState(1);
   return (
-    <div className="flex w-100 min-h-screen justify-center items-center">
-      <div className="flex bg-slate-400 w-auto p-5 mb-60 justify-center rounded-lg">
+    <div className="flex min-h-screen justify-center items-center ">
+      <div className="flex bg-slate-400 w-auto p-5  justify-center rounded-lg">
         <form
           action="
           "
