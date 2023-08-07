@@ -1,8 +1,8 @@
-import { Home } from "./pages/Home";
-import { Settings } from "./pages/Settings";
+import { Home } from 'pages/Home';
+import { Settings } from 'pages/Settings';
 
-export const HOME_ROUTE = "/";
-export const SETTINGS_ROUTE = "/settings";
+export const HOME_ROUTE = '/';
+export const SETTINGS_ROUTE = '/settings';
 
 export default [
   {
